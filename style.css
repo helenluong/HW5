@@ -1,0 +1,282 @@
+header {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-style: italic;
+    font-family: cursive;
+    color: rgba(255, 255, 0, 0.434);
+}
+
+h2.format {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 0, 0.289);
+}
+
+div#generalInfo {
+    margin: 10px, 10px, 10px, 10px;
+    background-color: indianred;
+    padding: 10px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+}
+
+body div#A h2 {
+    color: black;
+    padding: 30px;
+}
+
+body div#A p {
+    padding: 30px;
+    padding-top: 10px;
+}
+
+/* styling for navigation bar */
+ul {
+    list-style-type: none;
+    list-style: none;
+}
+
+/* one way */
+header div ul li a {
+    /* should be inline-block */
+    /* block, inline-block: we can apply "margin, padding, width  */
+    /* block:  */
+    /* inline, inline-block: it moves everthing within "inline/inline-block" in oneline */
+
+    margin: 0 2px;
+    border: 1px solid brown;
+    text-decoration: none;
+    /* float: right; */
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+header div ul li {
+    display: inline-block;
+}
+
+div.my-name {
+    display: inline-block;
+
+}
+
+div.my-nav {
+    display: inline-block;
+    margin-left: 700px;
+
+}
+
+/* another way by class */
+/* .navigation-bar-ul li a {
+    
+} */
+
+
+
+div img.profile {
+    width: 300px;
+    height: 400px;
+    padding: 25px;
+}
+
+div img.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 400px;
+}
+
+div p.A {
+    padding: 30px;
+}
+
+div#big div.small div.smaller a {
+    text-align: right;
+}
+
+div.small {
+    background-color: lightpink;
+    border: solid;
+    border-radius: 2px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    border-width: 15px;
+}
+
+div#big {
+    background-color: lightpink;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-top: none;
+    box-shadow: black;
+    border-width: 15px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;}
+
+div#unique {
+    background-color: lightpink;
+    border: solid;
+    border-radius: 2px;
+    border-width: 15px;
+    border-top: none;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+}
+
+div#A {
+    display: block;
+    background-color: lightpink;
+    border: dashed;
+    border-width: 15px;
+}
+
+div img {
+    width: 500px;
+    height: 400px;
+    padding: 0px;
+    
+}
+
+div.A1{display: flex;}
+
+div.b{display: block;
+border: solid;
+margin: 15px;
+margin-left: 0px;
+margin-right: 0px;
+padding: 0px;
+}
+
+div.b1{display: flex;
+align-items: center;
+justify-content:left;
+margin: 0px, 10px, 10px,5px;
+background-color: antiquewhite;
+padding: 0px;
+width: 50%;
+}
+
+div.i{display: block;
+    width: 500px ;
+}
+div.ii{display: block;}
+
+div.c{display: block;
+    border: solid;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+div.c1{display: flex;
+    align-items: center;
+    justify-content:left;
+    margin: 0px, 10px, 10px,5px;
+    background-color: antiquewhite;
+    padding: 0px;
+    width: 42.3%;
+    }
+    
+div.ci{display: block;
+        width: 500px ;
+    }
+div.cii{display: block;}
+
+div.d{display: block;
+    border: solid;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+div.d1{display: flex;
+    align-items: center;
+    justify-content:left;
+    margin: 0px, 10px, 10px,5px;
+    background-color: antiquewhite;
+    padding: 0px;
+    width: 42.3%;
+    }
+    
+div.di{display: block;
+        width: 500px ;
+    }
+div.dii{display: block;}
+
+div.B1{display: flex;}
+
+div.e{display: block;
+border: solid;
+margin: 0px;
+padding: 0px;
+}
+
+div.e1{display: flex;
+align-items: center;
+justify-content:left;
+margin: 0px, 10px, 10px,5px;
+background-color: antiquewhite;
+padding: 0px;
+width: 42.3%;
+}
+
+div.ei{display: block;
+    width: 500px ;
+}
+div.eii{display: block;}
+
+div.f{display: block;
+    border: solid;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+div.f1{display: flex;
+    align-items: center;
+    justify-content:left;
+    margin: 0px, 10px, 10px,5px;
+    background-color: antiquewhite;
+    padding: 0px;
+    width: 42.3%;
+    }
+    
+div.fi{display: block;
+        width: 500px ;
+    }
+div.fii{display: block;}
+
+div.g{display: block;
+    border: solid;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+div.g1{display: flex;
+    align-items: center;
+    justify-content:left;
+    margin: 0px, 10px, 10px,5px;
+    background-color: antiquewhite;
+    padding: 0px;
+    width: 42.3%;
+    }
+    
+div.gi{display: block;
+        width: 500px ;
+    }
+div.gii{display: block;}
